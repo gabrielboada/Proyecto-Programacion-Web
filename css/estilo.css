@@ -1,0 +1,199 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image: url(../img/fondo2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.centrar{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.logo{
+    color: beige; margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+/*......izquierda y derecha.....*/
+
+.izquierda, .derecha{
+    width: 49%;
+    height: auto; overflow: hidden;
+    border: 0px solid #fff;
+    display: inline-block;
+}
+
+.izquierda{ float: left; text-align: center;}
+
+.subtitulo{
+    color: beige;
+}
+
+.titulo-principal{
+    color: orangered;
+    font-size: 60px;
+}
+
+.descripcion{
+    color: white;
+    font-weight: 300;
+}
+
+.boton{
+    padding: 20px 35px;
+    background: orange;
+    color: black;
+    border-radius: 7px;
+    border: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.derecha{ float: right;}
+
+/*................¿con qué deseas degustar tu paladar?..........*/
+
+.elegir{
+    padding: 50px 0px;
+}
+
+.elegir .derecha{
+    text-align: left;
+}
+
+.img-elige{
+    width: 90%;
+    padding: 20px 25px;
+}
+
+.elegir .derecha .texto-beige{
+    color: rgb(129, 62, 15);
+}
+
+.elegir .derecha h1{
+    color: orange;
+    font-size: 35px;
+}
+
+.elegir .derecha p{
+    color: rgb(128, 59, 10);
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.opcion{
+    width: 45%;
+    border: solid 1px orangered;
+    background: orange;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid orangered;
+    border-radius: 7px;
+}
+
+.opcion .img-opciones{
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.texto-opciones{
+    margin-top: 15px;
+    color: black;
+}
+
+/*................LISTA...................*/
+
+.servicios{
+    padding: 50px 0px;
+    background-image: url(../img/aa.jpg);
+}
+
+.ofrecemos{
+    color: yellow;
+    font-size: 35px;
+}
+
+.texto-choco{
+    color: orangered;
+}
+
+.contenedores{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -50px;
+
+}
+
+.contenedores .contenidos{
+    width: 45%;
+    height: 70px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid orangered;
+    text-align: center;
+    box-shadow: 0px 0px 10px orangered;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    background: rgb(211, 211, 7);
+}
+
+.parrafo{
+    line-height: 25px;
+}
+
+.titulo-servicio{
+    color: orangered;
+}
+
+/*................footer....................*/
+
+.footer{
+    height: 360px;
+    width: 100%;
+    padding: 40px 0px;
+    background-color: rgb(165, 48, 2);
+}
+
+.footer .centrar .izquierda{
+    color: white;
+}
+
+.footer .centrar .izquierda ul{
+    text-align: left;
+}
+
+.footer .centrar .izquierda p{
+    border-top: 1px solid white;
+}
+
+.pie{
+    color: white;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
