@@ -1,0 +1,233 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 { font-size: 60px; font-weight: 600; line-height: 80px;}
+
+.topmargin-lg { margin-top: 60px;}
+.topmargin-md { margin-top: 30px;}
+.topmargin-pq { margin-top: 15px;}
+
+.btnn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-light {
+    background-color: orange;
+    color: black;
+    border: 2px solid orange;
+}
+
+.btnn-light {
+    background-color: chocolate;
+    color: beige;
+    border: 2px solid rgb(224, 133, 67);
+}
+
+.navbar {
+    background-color: orange;
+    box-shadow: 0 2px 4px 0 rgb(148, 145, 115);
+    min-height: 100px;
+}
+
+.navbar-brand {
+    color: beige;
+    font-size: 40px;
+}
+
+.btn {
+    color: rgb(1, 73, 1);
+}
+
+#hero {
+    background-image: url('fotofoto.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.encabezadouno {
+    color: beige;
+}
+
+.titulo {
+    color: orange;
+}
+
+.letras {
+    color: snow;
+}
+
+.centrar{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.izquierda, .derecha{
+    width: 49%;
+    height: auto; overflow: hidden;
+    border: 0px solid #fff;
+    display: inline-block;
+}
+
+.izquierda{ float: left; text-align: center;}
+
+.elegir{
+    padding: 50px 0px;
+}
+
+.elegir .derecha{
+    text-align: left;
+}
+
+.img-elige{
+    width: 90%;
+    padding: 20px 25px;
+}
+
+.elegir .derecha .texto-beige{
+    color: rgb(129, 62, 15);
+}
+
+.elegir .derecha h1{
+    color: orange;
+    font-size: 35px;
+}
+
+.elegir .derecha p{
+    color: rgb(128, 59, 10);
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.opcion{
+    width: 45%;
+    border: solid 1px orangered;
+    background: orange;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid orangered;
+    border-radius: 7px;
+}
+
+.opcion .img-opciones{
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.texto-opciones{
+    margin-top: 15px;
+    color: black;
+}
+
+.portafolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portafolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portafolio-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portafolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+    text-decoration: none;
+}
+
+.portafolio-details a h1, .portafolio-details a h4 {
+    color: yellow;
+    text-decoration: none;
+    /*background-color: orangered;*/
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.portafolio-details h2 {
+    margin-bottom: 0px;
+}
+
+#portafolio {
+    background-color: orange;
+}
+
+.beige {
+    color: beige;
+}
+
+.black {
+    color: black;
+}
+
+.footer{
+    height: 460px;
+    width: 100%;
+    padding: 40px 0px;
+    background-color: orange;
+}
+
+.footer .centrar .izquierda{
+    color: white;
+}
+
+.footer .centrar .izquierda ul{
+    text-align: left;
+}
+
+.footer .centrar .izquierda p{
+    border-top: 1px solid white;
+}
+
+.pie{
+    color: white;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+#photo {
+    background-image: url('footer.jpg');
+}
+
